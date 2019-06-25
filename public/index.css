@@ -1,0 +1,73 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body {
+	font-family: Garamond, sans-serif;
+	text-align: center;
+	width: 100%;
+	background-color: maroon;
+	
+
+}
+
+h1{
+	font-size: 3em;
+}
+
+p {
+	font-size: 1.5em;
+	font-weight: bold;
+
+}
+@media screen and (max-width: 48rem) {
+	 #view {
+    margin: 50px;
+  }
+  h1{
+  	font-size: 2rem;
+  }
+  p{
+  	font-size: 1rem;
+  }
+  
+  #message {
+	font-size: 1em;
+	color: #eee;
+}
+
+
+}
+
+
+ #view {
+ 	width: 0px auto;
+ 	
+	margin: 50px 100px 100px 100px ;
+
+
+
+}
+#result, #button{
+	padding: 25px;
+}
+#hit, #stay{
+	margin-left: 5px;
+	padding: 5px;
+	border: 1px solid grey;
+	border-radius: 3px;
+	width: 4rem;
+	background-color: teal;
+}
+#newGame{
+	padding: 5px;
+	border: 1px solid grey;
+	border-radius: 3px;
+	width: 5rem;
+	background-color: teal;
+}
+#message {
+	font-size: 2rem;
+	color: #eee;
+}
